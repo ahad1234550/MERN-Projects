@@ -69,7 +69,7 @@ const Login = ({ setToken }) => {
                     }
                 </div>
 
-                <button type="submit" className="w-full bg-green-600 hover:bg-green-800 text-white font-semibold py-3 rounded-md transition duration-300">{currentState==="Login" ? "Signin" : "Signup"}</button>
+                <button type="submit" className="w-full bg-green-600 hover:bg-green-800 text-white font-semibold py-3 rounded-md transition duration-300">{currentState==="Login" ? "Sign In" : "Sign Up"}</button>
             </form>
         </div>
      );
